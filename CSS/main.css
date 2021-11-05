@@ -27,17 +27,17 @@ header .logo{
     color:var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 40px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 header nav a{
     text-decoration: none;
-    color:#AAA;
-    margin-right: 10px;
+    color:white;
+    margin-right: 30px;
 }
 
 header nav a:hover{
-    color:#fff;
+    color:rgba(255, 255, 255, 0.829);
 }
 
 /*FILME PRINCIPAL*/
@@ -53,10 +53,82 @@ header nav a:hover{
 }
 
 .filme-principal .descricao{
+    margin-top: 10px;
     margin-bottom: 40px;
+ 
 }
 
 .titulo{
+    margin-top: 15%;
     font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+
+}
+/*BOTAO PLAY*/
+.buttonPlay{
+    background-color:white ;
+    border:none;
+    color: black;
+
+    padding: 18px 40px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+    border-radius: 8px;
 }
 
+.buttonPlay:hover{
+    background-color: rgba(255, 255, 255, 0.623);
+}
+
+/*BOTAO Info*/
+.buttonInfo{
+    background-color:rgb(94, 93, 93) ;
+    border:none;
+    color: white;
+
+    padding: 18px 50px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+    margin-top: 4px;
+    border-radius: 8px;
+}
+
+.buttonInfo:hover{
+    background-color:rgba(128, 128, 128, 0.658)
+}
+
+/*Margem do icone dos botoes*/
+button i{
+    margin-right: 5px;
+}
+
+/*Espaçamento container*/
+.container{
+    margin-left: 30px;
+}
+
+.filme-principal .container{
+    width: 50%;
+}
+
+/*Carrousel de filmes*/
+.box{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+/*estilo letras*/
+.carrousel h3{
+    margin-top: 1%;
+    font-size: 25px;
+    margin-bottom: 1%;
+    text-align: center;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
